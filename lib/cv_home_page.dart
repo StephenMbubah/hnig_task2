@@ -77,12 +77,12 @@ class _HomePageState extends State<HomePage> {
                       ),
                   ),
                   SizedBox(
-                    height: 7,
+                    height: 15,
                   ),
-                  Text('Bio: ${widget.bio}',
+                  Text('Bio: \n ${widget.bio}',
                       style: TextStyle(
-                          fontSize: 17, color: Colors.white
-                      )),
+                          fontSize: 17, color: Colors.white, height: 1.4
+                      ),),
                   Spacer(),
 
                   ElevatedButton(
